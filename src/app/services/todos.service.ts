@@ -13,7 +13,7 @@ export class TodosService {
 
   getTodos()
   {
-    return this._HttpClient.get('http://backend2-andrew3.apps.eu45.prod.nextcle.com/http://backend2-andrew3.apps.eu45.prod.nextcle.com/');
+    return this._HttpClient.get('http://backend2-andrew3.apps.eu45.prod.nextcle.com/');
   }
 
 
